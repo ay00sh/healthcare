@@ -13,7 +13,7 @@ const { setAppViewEngine } = require("./config/configpath");
 setAppViewEngine(app);
 
 // Connect to database
-connectDb();
+//connectDb();
 
 // Middleware
 app.use(express.json());
